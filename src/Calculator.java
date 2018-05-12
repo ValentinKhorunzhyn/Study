@@ -16,9 +16,29 @@ public class Calculator {
 
     private int inputMethod(String message) {
         Scanner in = new Scanner(System.in);
-        System.out.print(message);
-        return in.nextInt();
+        boolean flag;
+        String ipv;
+        do {
+            flag = true;
+            System.out.print(message);
+            ipv = in.nextLine();
+
+            for (int i = 0; i < ipv.length(); i++) {
+                if (!Character.isDigit(ipv.charAt(i))) {
+                    flag = false;
+                }
+            }
+
+            if (flag == false) {
+                System.out.println("You must use only digits from 0 to 9. Try again please!");
+            }
+
+        } while (flag == false);
+
+        int digit = Integer.parseInt(ipv);
+        return digit;
     }
+
 
     private int chooseOperation() {
         return this.inputMethod("Enter the arithmetic action (1- multiplication, 2 - addition," +
