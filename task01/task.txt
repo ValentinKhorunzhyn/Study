@@ -1,0 +1,6 @@
+Write a program that calculates velocity
+using a constant distance and a constant time.
+
+Here you take the distance and time values from the command line.
+Arguments come in as a String array; if you need a float instead, use
+the static parseFloat( ) method of class Float.
