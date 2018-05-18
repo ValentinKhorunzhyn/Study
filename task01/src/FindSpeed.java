@@ -5,14 +5,21 @@ public class FindSpeed {
     public static void main(String[] args) {
         System.out.println("You launched SPEED program");
         FindSpeed FSpeed = new FindSpeed();
-        String [] Values = new String[2];
-        String TTime = FSpeed.inputMethod("Enter the amount of time in seconds: ");
-        Values[0] = TTime;
-        String TDist = FSpeed.inputMethod("Enter the distance in metres: ");
-        Values[1] = TDist;
-        int SuperSpeed = (Integer.parseInt(TDist)/Integer.parseInt(TTime));
-        System.out.println("Speed of your Sperm: " + SuperSpeed + " m/s");
+        String inputValue = FSpeed.inputMethod("Enter the time in seconds, and distance in metres: ");
+        String [] Values = new String[1];
+        Values[0] = inputValue;
+        String[] ValuesOfset = inputValue.split(" ");
+        int VDigit[] = new int[ValuesOfset.length];
 
+        for (int i = 0; i < ValuesOfset.length; i++) {
+            VDigit[i] = Integer.parseInt(ValuesOfset[i]);
+        }
+
+        int setTime = VDigit[0];
+        int setDistance = VDigit[1];
+        int Speed = setTime/setDistance;
+
+        System.out.println("Speed of your sperm: " + Speed + "m/s");
 
     }
 
@@ -26,7 +33,7 @@ public class FindSpeed {
             variableS = in.nextLine();
 
             for (int i = 0; i < variableS.length(); i++) {
-                if (!Character.isDigit(variableS.charAt(i))) {
+                if (!Character.isDigit(variableS.charAt(i)) & !Character.isSpaceChar(variableS.charAt(i))) {
                     flag = false;
                 }
             }
