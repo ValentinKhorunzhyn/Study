@@ -5,7 +5,7 @@ public class FindSpeed {
     public static void main(String[] args) {
         System.out.println("You launched SPEED program");
         FindSpeed FSpeed = new FindSpeed();
-        String inputValue = FSpeed.inputMethod("Enter the time in seconds, and distance in metres: ");
+        String inputValue = FSpeed.inputMethod("Enter the time in seconds,and distance in metres: ");
         String [] Values = new String[1];
         Values[0] = inputValue;
         String[] ValuesOfset = inputValue.split(" ");
