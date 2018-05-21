@@ -1,1 +1,1 @@
-Write a program that simulates coin-flipping.
+Write a program that simulates coin-copy.
