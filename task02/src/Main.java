@@ -5,7 +5,7 @@ public class Main {
         myDog1.setName("Spot");
         myDog2.setName("Scruffy");
         myDog1.setSays("Ruff");
-        myDog2.setSays("Wurf");
+        myDog2.setSays("Wurff");
         System.out.println("Dog " + myDog1.getName() + " say: " + myDog1.getSays());
         System.out.println("Dog " + myDog2.getName() + " say: " + myDog2.getSays());
     }
