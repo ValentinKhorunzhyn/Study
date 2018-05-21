@@ -2,20 +2,23 @@ import java.lang.String;
 
 public class Dog {
 
-    public String name;
-    public String says;
+    private String name;
+    private String says;
 
-    public  Dog(String name, String says){
+    public  String getName(){
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSays(){
+        return says;
+    }
+
+    public void setSays(String says){
         this.says = says;
     }
-
-    public static void main(String[] args) {
-        Dog myDog1 = new Dog( "Spot", "Ruff!" );
-        Dog myDog2 = new Dog("Scruffy", "Wurf!");
-        System.out.println("Dog " + myDog1.name + " say: " + myDog1.says);
-        System.out.println("Dog " + myDog2.name + " say: " + myDog2.says);
-    }
-
 
 }
