@@ -1,0 +1,4 @@
+Display the largest and smallest numbers for
+both float and double exponential notation.
+
+Hint: use constants like Float.MAX_VALUE.
