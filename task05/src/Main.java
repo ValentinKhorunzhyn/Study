@@ -8,5 +8,6 @@ public class Main {
         Double sValue = com.inputMethod("Enter the second decimal number and exponent: ");
         com.compareMethod(fValue,sValue);
 
+
     }
 }
