@@ -1,7 +1,7 @@
 public class PrimeNumbers {
 
 
-        public void Find(){
+    public void fined() {
         boolean flag = false;
 
         for (int i = 2; i <= 150; i++) {
@@ -19,6 +19,6 @@ public class PrimeNumbers {
                 System.out.print(" " + i + " ");
             }
         }
-        }
-
     }
+
+}

@@ -1,0 +1,2 @@
+Create code that uses an xxxValue() method, a parseXxx()
+method, and a valueOf() method.
