@@ -11,13 +11,10 @@ public class Addition {
         String s = in.nextLine();
 
         Float fValue = Float.parseFloat(f);
-
         Double sValue = Double.parseDouble(s);
 
-
-
-       Long summa = fValue.longValue() + sValue.longValue();
-        System.out.println("The sum of two numbers: " + summa);
+       Long sum = fValue.longValue() + sValue.longValue();
+        System.out.println("The sum of two numbers: " + sum);
 
     }
 }

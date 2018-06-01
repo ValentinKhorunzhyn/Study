@@ -1,0 +1,6 @@
+Generate the output 4247 from the original StringBuilder
+“0123456789” using al the methods from the list below:
+-   append;
+-   insert;
+-  delete;
+-  replace.
