@@ -12,7 +12,7 @@ public class Computer {
             compInt[i] = Integer.parseInt(compRamHdd[i]);
         }
 
-        Double ram = Double.valueOf(compInt[0]);
+        Double ram = Double.valueOf(new Double(1));
         Integer hdd = compInt[1];
         System.out.println("RAM: " + ram + " Gb");
         System.out.println("HDD " + hdd.doubleValue() + " Gb");
