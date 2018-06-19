@@ -10,7 +10,6 @@ public class Binary {
         while (n != 0){
 
            int o = n%2;
-           Character.toChars(o);
            sb.append(o);
            n = n/2;
         }

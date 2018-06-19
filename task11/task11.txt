@@ -1,0 +1,7 @@
+Create a switch statement inside a for loop
+that tries each case and prints a message.
+Put a break after each case and test it, then see
+what happens when you remove the breaks.
+Delete breaks.
+Mix up all the case statements.
+Write a switch statement for the enum
