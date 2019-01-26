@@ -2,6 +2,16 @@ public class EnumBrake {
     public static void main(String[] args) {
         String[] array = new String[]{};
 
+        for (int i = 0; i < Numbers.values().length; i++) {
+            System.out.println(Numbers.values()[i]);
+        }
+
+        int i = 0;
+        while (i < array.length) {
+            System.out.println(array[i]);
+            i++;
+        }
+
         for (Numbers n : Numbers.values()) {
             switch (n) {
 

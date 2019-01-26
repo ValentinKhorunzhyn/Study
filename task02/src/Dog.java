@@ -5,7 +5,7 @@ public class Dog {
     private String name;
     private String says;
 
-    public  String getName(){
+    public String getName() {
         return name;
     }
 
@@ -13,11 +13,11 @@ public class Dog {
         this.name = name;
     }
 
-    public String getSays(){
+    public String getSays() {
         return says;
     }
 
-    public void setSays(String says){
+    public void setSays(String says) {
         this.says = says;
     }
 

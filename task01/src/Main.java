@@ -12,7 +12,7 @@ public class Main {
         int setDistance = vDigit[1];
         int Speed = setTime/setDistance;
 
-        System.out.println("Speed of your sperm: " + Speed + "m/s");
+        System.out.println("Speed of your body: " + Speed + " m/s");
     }
 
 }

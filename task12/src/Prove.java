@@ -1,8 +1,15 @@
 public class Prove {
 
-    public static void main(String[] args) {
-        System.out.println("This is the Main method");
+
+    static String str = "Day";
+
+    {
+        System.out.println("Initialization block");
     }
+
+
+
+
 
     static {
         System.out.println("This is a static initialization block");
