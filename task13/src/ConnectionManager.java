@@ -1,3 +1,5 @@
+
+
 public class ConnectionManager {
 
     static private Connection[] manager = new Connection[5];
@@ -9,10 +11,11 @@ public class ConnectionManager {
         manager[3] = new Connection("Mateo Kovachich");
         manager[4] = new Connection("Domagoi Vida");
 
-
     }
 
+
     static Connection getConnection() {
+
         Connection connection = null;
         for (int i = 0; i < manager.length; i++) {
             if (manager[i] != null) {
