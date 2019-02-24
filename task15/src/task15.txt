@@ -1,0 +1,40 @@
+Юра Савчук, [06.02.19 10:22]
+Create a class called ConnectionManager that
+manages a fixed array of Connection objects.
+The client programmer must not be able to
+create Connection objects, but only get them
+via a static method in ConnectionManager.
+ConnectionManager returns a null reference when
+it runs out of objects. Test the classes in main().
+
+Class Connection has the next functionality:
+-  has a counter of instances
+-  automatically generates new id for a new connection
+-  has method toString()
+-  has method doSomething()
+
+Make a ConnectionManager to be instantiated only once.
+
+Use a Singleton programming paradigm.
+
+Check list
+- Define a private static attribute in the “single instance” class.
+- Define a public static accessor function in the class.
+- Do “lazy initialization” (creation on first use) in the accessor function.
+- Define all constructors to be protected or private.
+
+Класс Connection имеет следующие функциональные возможности:
+- имеет счетчик экземпляров
+- автоматически генерирует новый идентификатор для нового объекта типа Connection
+- имеет метод toString ()
+- имеет метод doSomething ()
+
+Создайте экземпляр ConnectionManager только один раз.
+
+Используйте парадигму программирования Singleton.
+
+Контрольный список
+- Определить приватный статический атрибут в классе «один экземпляр».
+- Определить общедоступную статическую функцию доступа в классе.
+- Выполните «отложенную инициализацию» (создание при первом использовании) в функции доступа.
+- Определите все конструкторы, которые будут защищены или частные.
