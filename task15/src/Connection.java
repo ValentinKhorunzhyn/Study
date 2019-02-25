@@ -1,22 +1,29 @@
 public class Connection {
-    private static Connection manager;
+
     private String name;
     private int id;
-    Connection(String name){
+    private static int count = 0;
+
+    public Connection() {
         System.out.println("Connection created");
+        ++count;
+        this.id = count;
+    }
+
+    public void setName(String name) {
         this.name = name;
-        ++id;
     }
 
-
-    public static Connection getConnection(){
-        if (manager == null){
-            manager = new Connection("");
-        }
-        return manager;
+    public static int getCount(){
+        return count;
     }
 
+    public void doSomething(){
+        System.out.println("Connection " + this.id + " does");
+    }
     @Override
-    public String toString(){return name;}
+    public String toString() {
+        return name;
+    }
 
 }

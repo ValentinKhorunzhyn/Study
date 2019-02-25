@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Connection firstmanager;
-        Connection secondmanager;
-        firstmanager = new Connection("Vasiliy");
-        secondmanager = new Connection("Boris");
-        System.out.println(firstmanager.toString());
-        System.out.println(firstmanager);
-        System.out.println(secondmanager.toString());
+
+        ConnectionManager manager = ConnectionManager.getManager();
+        for (int i = 0; i < 30; i++) {
+         Connection connection = manager.getConnection();
+         if (connection != null){
+             connection.doSomething();
+         }else {
+             System.out.println("Connection is off");
+         }
+        }
     }
 }
