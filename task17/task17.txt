@@ -1,0 +1,26 @@
+1. Create a class called Amphibian (moveInWater(),
+moveOnLand() methods). From it,
+inherit a class from it called Frog. Put
+appropriate methods in the base class. In
+main(), create a Frog, upcast it to Amphibian,
+and demonstrate that all the methods still work.
+2. Frog overrides the
+method definitions from the base class
+(provides new definitions using the same
+method signatures). Note what happens in
+main().
+3. Add to Frog a new method sayKva(). Try to call it
+using reference to base class.
+4. Use a dawncast to call the method from step 3.
+
+--------------------------------------------------------------------------
+
+1. Создайте класс с именем Amphibian (moveInWater(), moveOnLand() методы). Унаследуйте класс от него
+который называется Frog. Поместите соответствующие методы в базовом классе.В классе Main() создайте Frog,
+передайте ее амфибии и покажите что все методы еще работают.
+2. Лягушка переопределяет методы определенные в базовом классе.
+(предоставляет новые определения с использованием того же
+метод подписей). Обратите внимание, что происходит в
+Main().
+3. Добавьте в класс Frog новый метод SayKva(). Попробуйте вызвать его используя ссылку на базовый класс.
+4. Используйте понижающее приведение типов чтобы вызвать метод из шага 3.
