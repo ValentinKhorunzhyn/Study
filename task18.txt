@@ -1,0 +1,7 @@
+Pr4-1
+1) Create class Point with:
+        - field x
+        - field y
+2) Override equals() method to compare two objects of the class by coordinates.
+3) Override toString() method to print actual coordinates.
+4) Override hashCode() method.
