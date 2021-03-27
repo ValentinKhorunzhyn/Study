@@ -7,10 +7,6 @@ public class Prove {
         System.out.println("Initialization block");
     }
 
-
-
-
-
     static {
         System.out.println("This is a static initialization block");
     }

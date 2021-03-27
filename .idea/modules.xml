@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Task-091/Task-091.iml" filepath="$PROJECT_DIR$/Task-091/Task-091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task-094/Task-094.iml" filepath="$PROJECT_DIR$/Task-094/Task-094.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_epol_test/java_epol_test.iml" filepath="$PROJECT_DIR$/java_epol_test/java_epol_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/task01/task01.iml" filepath="$PROJECT_DIR$/task01/task01.iml" />
       <module fileurl="file://$PROJECT_DIR$/task02/task02.iml" filepath="$PROJECT_DIR$/task02/task02.iml" />
       <module fileurl="file://$PROJECT_DIR$/task03/task03.iml" filepath="$PROJECT_DIR$/task03/task03.iml" />
@@ -22,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/task17/task17.iml" filepath="$PROJECT_DIR$/task17/task17.iml" />
       <module fileurl="file://$PROJECT_DIR$/task18/task18.iml" filepath="$PROJECT_DIR$/task18/task18.iml" />
       <module fileurl="file://$PROJECT_DIR$/task19/task19.iml" filepath="$PROJECT_DIR$/task19/task19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>

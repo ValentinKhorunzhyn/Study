@@ -7,7 +7,10 @@ public class Main {
         timka.moveInWater();
         timka.moveOnLand();
         Ampnibian am = new Frog();
+        System.out.println("!!!!!!!!!!!!!!!!!" +  am.getName());
         Frog amphibian = (Frog) am;
         amphibian.sayKva();
+        Ampnibian gora = new Frog();
+        gora.moveInWater();
     }
 }

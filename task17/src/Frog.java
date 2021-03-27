@@ -1,6 +1,9 @@
 public class Frog extends Ampnibian {
+
+    String name = "Frog";
+
     void moveInWater() {
-        System.out.println("I am a Frog, and I can swim very fast");
+        System.out.println("I am Frog, and I can swim very fast");
     }
 
     void moveOnLand() {
@@ -9,5 +12,9 @@ public class Frog extends Ampnibian {
 
     void sayKva(){
         System.out.println("Frog say Kva-Kva");
+    }
+
+    public String getName() {
+        return name;
     }
 }
