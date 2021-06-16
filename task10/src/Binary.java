@@ -15,5 +15,6 @@ public class Binary {
         sb.reverse();
         System.out.println(sb);
         System.out.println(sb);
+        System.out.println(sb);
     }
 }
