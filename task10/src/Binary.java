@@ -16,5 +16,6 @@ public class Binary {
         System.out.println(sb);
         System.out.println(sb);
         System.out.println(sb);
+        System.out.println(sb);
     }
 }
